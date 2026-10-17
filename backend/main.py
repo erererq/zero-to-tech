@@ -46,6 +46,7 @@ profile = {
         "linkLabel": "打开作品",
     },
     "identity": {
+   
         "motto": "已识乾坤大，尤怜草木青",
         "learning": "零到全栈",
     },

@@ -28,3 +28,8 @@ class Handler(BaseHTTPRequestHandler):
 
 print("后端已启动：http://localhost:8000/api/profile")
 HTTPServer(("", 8000), Handler).serve_forever()
+
+def outer(func):
+    def inner():
+        func()
+    return inner
